@@ -1,5 +1,5 @@
+""" Author - Sidharth Satapathy """
 """ This is python 3 code """
-
 def bubble_sort(arr):
     for i in range(len(arr)-1,0,-1):
         for j in range(i):
