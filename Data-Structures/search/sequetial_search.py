@@ -1,3 +1,5 @@
+""" Author - Sidharth Satapathy """
+""" This code is in python 2 """
 def seq_search(arr,ele):
     found = False
     i = 0

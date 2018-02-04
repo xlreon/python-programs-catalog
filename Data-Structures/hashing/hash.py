@@ -1,3 +1,6 @@
+""" Author - Sidharth Satapathy """
+""" This code is in python 2 """
+
 class HashTable(object):
 
     def __init__(self,size):

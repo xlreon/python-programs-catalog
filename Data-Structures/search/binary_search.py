@@ -1,3 +1,5 @@
+""" Author - Sidharth Satapathy """
+""" This code is in python 2 """
 def binary_search(arr,ele):
     found = False
     first = 0
