@@ -1,5 +1,5 @@
 """ Author - Sidharth Satapathy """
-""" This code is in python 2 """
+""" This code is in python 3 """
 
 class Node(object):
     def __init__(self,name):
