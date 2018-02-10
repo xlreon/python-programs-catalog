@@ -1,7 +1,6 @@
 """ Author - Sidharth Satapathy """
 """ This code is in python 3 """
 import sys
-import heapq
 from collections import defaultdict
 class Edge(object):
     def __init__(self,weight,start,end):
