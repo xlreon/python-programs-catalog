@@ -14,11 +14,9 @@ class Graph(object):
         queue = []
         queue.append(startNode)
         startNode.visited = True
-
         while queue:
             curr = queue.pop(0)
             print ("Node : ",curr.name)
-
             for vertex in curr.neighbours:
                 if not vertex.visited:
                     vertex.visited = True
@@ -34,7 +32,6 @@ class Graph(object):
         adjacentNodes = input(f"Enter the adjacent nodes separated by space for node {node.name} : ")
         adjacentNodes = [self.getNode(x) for x in adjacentNodes.split(" ") if self.getNode(x) != None]
         node.neighbours = adjacentNodes
-
 if __name__ == "__main__":
     g = Graph()
     name = input("Enter all nodes separate by space : ")
@@ -43,7 +40,6 @@ if __name__ == "__main__":
         g.insertNode(x)
     for i in g.vertices:
         g.insertNodeNeighbour(i)
-
     start = input("Enter the node to do BFS from : ")
     node = g.getNode(start)
     print (f"The BFS starting from node {node.name} is -> ")
