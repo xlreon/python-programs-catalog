@@ -30,11 +30,11 @@ class BellmanFord(object):
                     v.minDistance = newDistance
                     v.predecessor = u
 
-                for edge in edgeList:
-                    if self.hasCycle(edge):
-                        print ("Negative cycle detected.")
-                        BellmanFord.HAS_CYCLE = True
-                        return 
+        for edge in edgeList:
+            if self.hasCycle(edge):
+                print ("Negative cycle detected.")
+                BellmanFord.HAS_CYCLE = True
+                return 
     def hasCycle(self,edge):
         if (edge.startNode.minDistance + edge.weight) < edge.endNode.minDistance :
             return True
