@@ -15,8 +15,8 @@ def findSize(root):
     while queue:
         node = queue.pop()
         count = count + 1
-        if root.left is not None:
-            queue.append(root.left)
-        if root.right is not None:
-            queu.append(root.right)
+        if node.left is not None:
+            queue.append(node.left)
+        if node.right is not None:
+            queu.append(node.right)
     return count            

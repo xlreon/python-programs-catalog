@@ -16,7 +16,7 @@ def find(self,root,data):
         if data == node.getData():
             return 1
         if node.left is not None:
-            queue.append(root.left)
+            queue.append(node.left)
         if node.right is not None:
-            queue.append(root.right)
+            queue.append(node.right)
     return 0                

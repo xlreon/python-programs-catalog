@@ -45,12 +45,12 @@ class BinaryTree:
             if data == node.getData():
                 return root
             if node.left is not None:
-                queue.append(root.left)
+                queue.append(node.left)
             else:
                 node.left = newNode
                 return root
             if node.right is not None:
-                queue.append(root.right)
+                queue.append(node.right)
             else:
                 node.right = newNode
                 return root            
