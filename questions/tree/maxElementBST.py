@@ -1,6 +1,6 @@
 """Author - Sidharth Satapathy"""
 
-# Problem 1
+# Problem 2
 # Assuming that the tree has getData(), setData(), getLeft(), getRight()
 
 # without using recursion
