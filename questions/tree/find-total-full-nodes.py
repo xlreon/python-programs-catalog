@@ -12,7 +12,7 @@ def totalFullNodes(root):
     q = []
     q.append(root)
     node  = None
-    while queue:
+    while q:
         node = q.pop()
         if node.left is not None and node.right is not None:
             count += 1
