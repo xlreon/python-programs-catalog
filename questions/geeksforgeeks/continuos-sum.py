@@ -1,6 +1,6 @@
 """ Author - Sidharth Satapathy """
 
-#code
+# Find the continuos sub array for a given sum
 
 def getSum(a,s):
     temp = s
