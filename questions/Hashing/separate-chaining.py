@@ -1,7 +1,6 @@
 """Author - Sidharth Satapathy"""
 
 # Problem 1
-# Assuming that the tree has getData(), setData(), getLeft(), getRight()
 
 # Implementation of separate chaining hashing technique
 # to get uniform distribution we take the size as a prime number
